@@ -1,0 +1,13 @@
+
+$primary: #0166ff;
+$secondary: #f3a23a;
+$white: #FFF;
+
+.active {
+  background: none !important;
+  color: $primary !important;
+  border-right: 3px solid $primary !important;
+  font-weight: bolder;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

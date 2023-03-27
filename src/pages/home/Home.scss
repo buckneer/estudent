@@ -1,0 +1,51 @@
+
+.Home {
+
+
+  .greeting {
+    font-size: 30px;
+    font-family: GilroyRegular;
+
+    b {
+      font-family: GilroyBold;
+    }
+  }
+
+
+  .heading {
+    font-family: GilroyBold;
+  }
+
+  .timetable {
+
+    .day-header {
+      font-family: GilroyBold;
+    }
+
+    .timetable-item {
+      padding: 5px;
+
+      b {
+        font-family: GilroyBold;
+      }
+    }
+
+    font-family: GilroyRegular;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+
+  .news {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .timetable-etc {
+    max-height:  100vh;
+    overflow-y: scroll;
+  }
+}
+
+
+// font-family: 'Montserrat', sans-serif;
